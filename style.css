@@ -4,23 +4,23 @@
 }
 
 .div1 {
-    width: 1007px;
-    height: 116px;
+    width: 100%;
+    height: 100px;
     background-color: rgb(248, 226, 192);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
 }
 
 .div1-1st {
-    width: 151px;
-    height: 17px;
-    padding: 11px;
+    width: 150px;
+    height: 18px;
+    padding: 10px;
     background-color: rgb(239, 183, 94);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     border-radius: 25px;
-    margin-left: 414px;
-    margin-top: 20px;
+    margin-left: 45%;
 }
 
 .div2 {
@@ -29,7 +29,6 @@
     background-size: cover;
     width: 100%;
     height: 90vh;
-    padding-top: 1px;
 }
 
 .div2-box {
@@ -86,13 +85,15 @@
 
 .div3 {
     display: flex;
+    justify-content: space-between;
 }
 
 .div3-div1-left {
-    width: 512px;
-    height: 620px;
+    width: 50%;
+    height: 700px;
     background-color: rgb(243, 239, 205);
     text-align: center;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -111,8 +112,8 @@
 }
 
 .div3-div2-right {
-    width: 512px;
-    height: 620px;
+    width: 50%;
+    height: 700px;
     background-color: rgb(243, 239, 205);
 }
 
@@ -196,17 +197,18 @@
     color: white;
 }
 .div4-box{
-    width: 1007px;
+    width: 100%;
     height: 288px;
     /* background-color: red; */
     display: flex;
+    justify-content: space-around;
     margin-top: 20px;
 }
 .div4-box1{
     width: 294px;
     height: 280px;
-    margin: 0px;
-    margin-left: 32px;
+    /* margin: 0px;
+    margin-left: 32px; */
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin-top: 15px;
@@ -244,8 +246,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .div5 img{
-    width: 1007px;
-    height: 553px;
+    width: 100%;
+    height: 50%;
 }
 .div6 {
     background: url(yellow.png)no-repeat;
@@ -271,13 +273,13 @@
     color: rgb(120, 119, 119);
 }
 .div7{
-    width: 1007px;
+    width: 100%;
     height: 170px;
     background-color: rgb(236, 185, 161);
     /* border-radius: 40px 40px 0px 0px; */
 }
 .div8{
-    width: 1007px;
+    width: 100%;
     height: 600px;
     background-color: rgb(0, 118, 118);
     text-align: center;
@@ -317,7 +319,7 @@
     margin-left: 374px;
 }
 .div9 {
-    width: 1007px;
+    width: 100%;
     height: 900px;
     background-color: rgb(247, 220, 164);
     text-align: center;
@@ -360,7 +362,7 @@
     color: rgba(0, 0, 0, 0.849);
 }
 .div10 {
-    width: 1007px;
+    width: 100%;
     height: 500px;
     /* display: flex; */
     /* background-color: red; */
@@ -437,7 +439,7 @@ hr{
     margin-left: 90px;
 }
 .div-end{
-    width: 1007px;
+    width: 100%;
     height: 50px;
     /* background-color: red; */
 }
